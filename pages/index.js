@@ -1,4 +1,5 @@
 import Head from "next/head";
+import style from '../styles/index.module.css'
 
 
 export default function Home() {
@@ -8,8 +9,8 @@ export default function Home() {
                 <title>FemArch - Home</title>
             </Head>
             <div style={{textAlign: "center"}}>
-                <h1>FemArch</h1>
-                <h4>You were wearing programming socks anyway</h4>
+                <h1 className={style.title}>FemArch</h1>
+                <h1>You were wearing programming socks anyway</h1>
             </div>
         </div>
     )
