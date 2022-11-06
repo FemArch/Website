@@ -7,7 +7,7 @@ import style from '../styles/Nav.module.css';
 export default function Nav() {
     return (
         <nav className={style.nav}>
-            <div>
+            <div style={{margin: 0, padding: "8px", background: "white", borderRadius: ".7rem"}}>
                 <Image src={favicon} height={64} width={64} alt={"Logo"}/>
             </div>
             <div>
