@@ -15,24 +15,24 @@ export default function Nav() {
             </div>
             <div className={style.list}>
                 <div>
-                    <Link href={"/"}>
+                    <a href={"/"}>
                         Home
-                    </Link>
+                    </a>
                 </div>
                 <div>
-                    <Link href={"//wiki.archlinux.org/"}>
+                    <a href={"https://wiki.archlinux.org/"}>
                         Wiki
-                    </Link>
+                    </a>
                 </div>
                 <div>
-                    <Link href={"//github.com/FemArch/FemArch"}>
+                    <a href={"https://github.com/FemArch/FemArch"}>
                         Source
-                    </Link>
+                    </a>
                 </div>
                 <div>
-                    <Link href={"//github.com/FemArch/FemArch/issues"}>
+                    <a href={"https://github.com/FemArch/FemArch/issues"}>
                         Bugs
-                    </Link>
+                    </a>
                 </div>
             </div>
         </nav>
